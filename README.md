@@ -1,1 +1,1 @@
-Examples of small applications on pure javaScript
+Examples of small applications and scripts on pure javaScript.
