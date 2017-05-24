@@ -10,8 +10,6 @@
          url('../fonts/proximanova-regular.ttf') format('truetype');
 }
 
-
-
 /*====================== General ======================*/
 
 body {
@@ -73,7 +71,7 @@ body {
 	transform: rotate3d(0,0,0,0);
 
 	-webkit-transition: all 200ms ease-in-out;
-  	        transition: all 200ms ease-in-out;
+  	      transition: all 200ms ease-in-out;
 }
 .note-header .note-filter.reverse i {
 	-webkit-transform: rotate3d(1,0,0,180deg);
@@ -82,7 +80,7 @@ body {
 .note-contain .note-ell {
 	background-color: #fff;
 	-webkit-transition: all 300ms ease-in-out;
-  	        transition: all 300ms ease-in-out;
+  	      transition: all 300ms ease-in-out;
 }
 
 .note-contain {
@@ -142,7 +140,7 @@ body {
 	line-height: 30px;
 	cursor: pointer;
 	-webkit-transition: all 200ms ease-in-out;
-  	        transition: all 200ms ease-in-out;
+  	      transition: all 200ms ease-in-out;
 }
 .note-ell .item-head .item-icon i:hover{
 	background-color: #006064;
@@ -170,7 +168,7 @@ body {
 	float: right;
 	cursor: pointer;
 	-webkit-transition: all 200ms ease-in-out;
-  	        transition: all 200ms ease-in-out;
+  	      transition: all 200ms ease-in-out;
 }
 .note-ell .item-foot .item-more:hover{
 	color: #828282;
@@ -192,7 +190,7 @@ body {
 	color: #9E9E9E;
 
 	-webkit-transform: translate(-50%, -50%);
-   	       	transform: translate(-50%, -50%);
+   	      transform: translate(-50%, -50%);
 }
 
 
@@ -209,7 +207,7 @@ body {
 	background-color: rgba(0, 0, 0, 0.5);
 	opacity: 0;
 	-webkit-transition: all 300ms ease-in-out;
-  	        transition: all 300ms ease-in-out;
+  	      transition: all 300ms ease-in-out;
 }
 .modal-blok{
 	position: absolute;
@@ -219,9 +217,9 @@ body {
 	background-color: #fff;
 	opacity: 0;	
 	-webkit-transform: translate(-50%, -80%);
-   	       	transform: translate(-50%, -80%);
-   	-webkit-transition: all 300ms ease-in-out;
-  	        transition: all 300ms ease-in-out;       	
+   	      transform: translate(-50%, -80%);
+  -webkit-transition: all 300ms ease-in-out;
+  	      transition: all 300ms ease-in-out;       	
 }
 .modal-blok.modal-form{
 	max-width: 420px;
@@ -247,7 +245,7 @@ body {
 	color: #212121;
 	background-color: #E0E0E0;
 	-webkit-transition: all 200ms ease-in-out;
-  	        transition: all 200ms ease-in-out;
+  	      transition: all 200ms ease-in-out;
 }
 .modal-content input.error,
 .modal-content textarea.error {
@@ -303,7 +301,7 @@ body {
 	height: 100%;
 	background-color: #37474F;
 	-webkit-transition: all 200ms ease-in-out;
-  	        transition: all 200ms ease-in-out;
+  	      transition: all 200ms ease-in-out;
 }
 .wind-btn:hover .bt-bg{
 	width: 100%;
@@ -318,29 +316,29 @@ body {
 
 .modal-more .close-more{
 	position: absolute;
-    right: -10px;
-    top: -10px;
-    background-color: #607D8B;
-    color: #fff;
-    border-radius: 50%;
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    font-size: 18px;
-    cursor: pointer;
-    -webkit-transition: all 200ms ease-in-out;
-  	        transition: all 200ms ease-in-out;
+  right: -10px;
+  top: -10px;
+  background-color: #607D8B;
+  color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  -webkit-transition: all 200ms ease-in-out;
+  	      transition: all 200ms ease-in-out;
 }
 .modal-more .close-more:hover{
 	background-color: #37474F;
 }
 .modal-more .modal-date{
 	padding: 10px 15px;
-    font-size: 14px;
-    color: #b2b2b2;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+  font-size: 14px;
+  color: #b2b2b2;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 .modal-more .modal-content{
 	font-size: 18px;

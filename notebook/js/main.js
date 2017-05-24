@@ -383,3 +383,4 @@ var AppNotepad = {
 window.addEventListener('load', function (){
 	AppNotepad.initApp();	
 }, false);
+
