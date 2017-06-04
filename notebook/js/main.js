@@ -257,7 +257,7 @@ var AppNotepad = {
 			itemDate = this.createNode('span', 'item-date', 'от: ' + new Date(ellDate).toLocaleString('ru')),
 			itemList = this.noteContain.getElementsByClassName('note-item');
 			
-		noteItem.id = 'note-item-' + this.itemId;
+		noteItem.id = this.itemId;
 		this.itemId += 1;
 
 		itemIcon.appendChild(iconChange);
